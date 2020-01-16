@@ -93,7 +93,7 @@ public class GameManager : SingletonBehaviour<GameManager>
         //- by having a callback
         //- by using an interface for the states
         if (m_loadOperations.Count == 0) {
-            int mainGameSceneIndex = SceneUtility.GetBuildIndexByScenePath(Constants.MAIN_GAME_SCENE);
+            int mainGameSceneIndex = SceneUtility.GetBuildIndexByScenePath("Common/Scenes/Main");
             if (m_currentLevel == mainGameSceneIndex) {
                 UpdateState(GameState.RUNNING);
             }
