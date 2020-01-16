@@ -1,0 +1,13 @@
+{
+	"name": "com.unity.shin-framework",
+	"displayName":"ShinFramework",
+	"version": "0.0.1-preview",
+	"unity": "2019.3",
+	"description": "Yet another framework for using Unity",
+	"dependencies": {
+	},
+    "author": "Sindharta Tanuwijaya",
+    "contributors": [
+        "Sindharta Tanuwijaya <sindharta.tanuwijaya@unity3d.com> (https://github.com/sindharta)"
+    ]    
+}
