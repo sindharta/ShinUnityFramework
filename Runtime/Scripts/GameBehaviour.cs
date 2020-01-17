@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+namespace ShinFramework {
+
 public class GameBehaviour : MonoBehaviour {
 
     protected virtual void Awake() {
@@ -9,3 +11,5 @@ public class GameBehaviour : MonoBehaviour {
 //---------------------------------------------------------------------------------------------------------------------
     protected Transform m_transform = null;
 }
+
+} //end namespace

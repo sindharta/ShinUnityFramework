@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+namespace ShinFramework {
+
 //Requires that T extends SingletonBehaviour
 public class SingletonBehaviour<T> : MonoBehaviour where T: SingletonBehaviour<T>
 {
@@ -35,3 +37,5 @@ public class SingletonBehaviour<T> : MonoBehaviour where T: SingletonBehaviour<T
     private static T m_instance;
 
 }
+
+} //end namespace
