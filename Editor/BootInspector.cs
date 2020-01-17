@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEditor;
 
-namespace ShinFramework {
+namespace Shin.Framework {
 [CustomEditor(typeof(Boot))]
 public class BootInspector : Editor {
     

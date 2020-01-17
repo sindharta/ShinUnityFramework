@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.SceneManagement;
 
-namespace ShinFramework {
+namespace Shin.Framework {
 
 public class GameManager : SingletonBehaviour<GameManager>
 {

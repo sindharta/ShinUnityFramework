@@ -1,4 +1,4 @@
-﻿namespace ShinFramework {
+﻿namespace Shin.Framework {
 
 public enum GameState {
     PREGAME,

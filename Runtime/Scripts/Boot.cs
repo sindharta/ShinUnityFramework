@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEditor;
 #endif
 
-namespace ShinFramework {
+namespace Shin.Framework {
 
 [ExecuteInEditMode]
 public class Boot : MonoBehaviour {
