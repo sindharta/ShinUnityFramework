@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 using UnityEditor;
 #endif
 
+namespace ShinFramework {
+
 [ExecuteInEditMode]
 public class Boot : MonoBehaviour {
 
@@ -20,8 +22,6 @@ public class Boot : MonoBehaviour {
         }
         m_selectedScene = sceneIndex;
     }
-
-
 
 //----------------------------------------------------------------------------------------------------------------------
 
@@ -67,3 +67,5 @@ public class Boot : MonoBehaviour {
 
     List<string> m_scenes;
 }
+
+} //end namespace

@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.SceneManagement;
 
+namespace ShinFramework {
+
 public class GameManager : SingletonBehaviour<GameManager>
 {
     public GameState GetState()     { return m_currentGameState; }
@@ -174,6 +176,7 @@ public class GameManager : SingletonBehaviour<GameManager>
 
 }
 
+} //end namespace
 
 //Requirements:
 //- What level the game is currently in
