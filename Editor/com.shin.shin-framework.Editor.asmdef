@@ -1,7 +1,11 @@
 {
-    "name": "com.unity.shin-framework",
-    "references": [],
-    "includePlatforms": [],
+    "name": "com.shin.shin-framework.Editor",
+    "references": [
+        "GUID:c0036e06d3173e64db70dc0b98b902b5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
