@@ -1,7 +1,7 @@
 ﻿using System;   //Serializable
 using UnityEngine.Events;
 
-namespace ShinFramework {
+namespace Shin.Framework {
 
 public static class Events {
     //Fadeout: true. Fadein: false

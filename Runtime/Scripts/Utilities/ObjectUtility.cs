@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ShinFramework {
+namespace Shin.Framework {
 
     public static class ObjectUtility {
     public static void Destroy(Object obj) {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ShinFramework {
+namespace Shin.Framework {
 
 public class GameBehaviour : MonoBehaviour {
 

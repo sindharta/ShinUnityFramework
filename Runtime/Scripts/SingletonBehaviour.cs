@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ShinFramework {
+namespace Shin.Framework {
 
 //Requires that T extends SingletonBehaviour
 public class SingletonBehaviour<T> : MonoBehaviour where T: SingletonBehaviour<T>
